@@ -1,0 +1,4 @@
+// my awesom library
+// export * from "./MyComponent";
+export * from "./Foo";
+export * from "./yo";

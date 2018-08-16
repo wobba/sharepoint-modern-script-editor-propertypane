@@ -1,0 +1,44 @@
+{
+  "name": "sharepoint-modern-script-editor-propertypane",
+  "version": "1.0.0",
+  "description": "Editor pane for https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-script-editor",
+  "main": "./bundles/editor-pop-up.min.js",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "npm run tslint && npm run dev:tsc && webpack --mode development",
+    "dev:tsc": "tsc && tsc -m es6 --outDir lib-esm",
+    "dev:watch": "nodemon --exec 'npm run dev || exit 1'",
+    "tslint": "tslint --project .",
+    "build": "npm run dev:tsc && webpack --mode production"
+  },
+  "repository": "https://github.com/wobba/sharepoint-modern-script-editor-propertypane.git",
+  "author": "Mikael Svenson <miksvenson@gmail.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "@types/prop-types": "^15.5.5",
+    "@types/react": "15.6.6",
+    "@types/react-dom": "15.5.6",
+    "office-ui-fabric-react": "^5.118.3",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
+  "devDependencies": {
+    "@microsoft/load-themed-styles": "^1.7.77",
+    "@uifabric/webpack-utils": "^0.7.2",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.17.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.4.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2",
+    "uglifyjs-webpack-plugin": "^1.2.6",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.0.8"
+  },
+  "peerDependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  }
+}
