@@ -39,6 +39,7 @@
     },
     "peerDependencies": {
         "react": "^15.6.2",
-        "react-dom": "^15.6.2"
+        "react-dom": "^15.6.2",
+        "@microsoft/load-themed-styles": "^1.7.77"
     }
 }
