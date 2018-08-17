@@ -3,3 +3,11 @@
 **/webpack.config.js
 node_modules
 src
+demo
+lib
+lib-esm
+bundles/lib
+bundles/lib/editor-pop-up.js
+**/nodemon.json
+**/tslint.json
+yarn*
