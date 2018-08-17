@@ -1,6 +1,6 @@
 {
     "name": "sharepoint-modern-script-editor-propertypane",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Editor pane for https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-script-editor",
     "main": "./bundles/editor-pop-up.min.js",
     "sideEffects": false,
