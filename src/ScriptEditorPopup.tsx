@@ -26,9 +26,7 @@ export default class ScriptEditor extends React.Component<IScriptEditorProps, an
     }
     `;
         loadStyles(uiFabricCSS);
-        this.state = {
-            showDialog: false
-        };
+        this.state = { showDialog: false };
     }
 
     public componentDidMount(): void {
