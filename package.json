@@ -1,6 +1,6 @@
 {
     "name": "sharepoint-modern-script-editor-propertypane",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Editor pane for https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-script-editor",
     "main": "./bundles/editor-pop-up.min.js",
     "sideEffects": false,
@@ -14,7 +14,7 @@
     },
     "repository": "https://github.com/wobba/sharepoint-modern-script-editor-propertypane.git",
     "author": "Mikael Svenson <miksvenson@gmail.com>",
-    "license": "MIT",    
+    "license": "MIT",
     "dependencies": {
         "@types/prop-types": "^15.5.5",
         "@types/react": "15.6.6",
